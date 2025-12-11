@@ -7,7 +7,7 @@ import emoji
 import tqdm as tqdm_module  # 버전확인용
 
 def main():
-    print(pyfiglet.figlet_format("myvenv OK"))
+    print(pyfiglet.figlet_format("DEV VERSION"))
 
     print("\n[1] HTTP 요청 테스트")
     r = requests.get("https://httpbin.org/get")
